@@ -3,33 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/static/img/favicon.png">
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="static/favicon.png">
+    <link rel="stylesheet" href="static/style.css">
 </head>
 <body oncontextmenu="return false" ondragstart="return false">
     <header>
         <nav class="navbar">
             <div class="navbar-left">
                 <a href="/main" class="logo">
-                    <img src="/static/img/sp_logo.png" alt="Street Photo">
+                    <img src="static/sp_logo.png" alt="Street Photo">
                 </a>
-                <a href="/gallery/JHKUM78" class="nav-link">JHKUM78</a>
-                <a href="/gallery/YULUCIDA" class="nav-link">YULUCIDA</a>
-
             </div>
             <div class="navbar-right">
-                <ul class="nav-menu" id="nav-right-menu">
-                    {% if logged_in %}
-                    <li><a href="/write">글쓰기</a></li>
-                    {% endif %}
-
-                    {% if logged_in %}
-                    <li><a href="/mypage" class="mypage-icon-link"><img src="/static/img/mypage.png" alt="마이페이지" class="mypage-icon"></a></li>
-                    <li><a href="/logout" id="logout-btn">로그아웃</a></li>
-                    {% else %}
-                    <li><a href="/login" id="login-btn">로그인</a></li>
-                    {% endif %}
-                </ul>
+                <a href="/gallery/JHKUM78" class="nav-link">JHKUM78</a>
+                <a href="/gallery/YULUCIDA" class="nav-link">YULUCIDA</a>
             </div>
         </nav>
     </header>
