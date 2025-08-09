@@ -30,7 +30,7 @@ header {
 	background-color: #ffffff;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 70%;
     z-index: 1000; /* Ensure it's on top of other content */
 }
 
