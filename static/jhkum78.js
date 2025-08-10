@@ -17,9 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     console.error(`Invalid JSON format in ${jsonPath}. Expected an array.`);
                     imageFiles = [];
                 }
-
-                // Reverse the order of images
-                imageFiles.reverse();
                 
                 console.log('Loaded image files:', imageFiles);
 
