@@ -18,8 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     imageFiles = [];
                 }
 
-                // Reverse the order of images
-                imageFiles.reverse();
                 
                 console.log('Loaded image files:', imageFiles);
 
